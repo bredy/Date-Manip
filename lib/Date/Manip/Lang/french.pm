@@ -1,5 +1,5 @@
 package Date::Manip::Lang::french;
-# Copyright (c) 1996-2010 Sullivan Beck. All rights reserved.
+# Copyright (c) 1996-2009 Sullivan Beck. All rights reserved.
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -27,12 +27,12 @@ use strict;
 use warnings;
 
 use vars qw($VERSION);
-$VERSION="6.01";
+$VERSION='6.04';
 
 use vars qw($Language);
 
 my @in    = <DATA>;
-$Language = Load(join("",@in));
+$Language = Load(join('',@in));
 
 1;
 __DATA__
@@ -340,7 +340,7 @@ offset_date:
   hier: -0:0:0:1:0:0:0
 offset_time: 
   maintenant: 0:0:0:0:0:0:0
-"on": 
+'on': 
   - sur
 sephm: 
   - "[h]"

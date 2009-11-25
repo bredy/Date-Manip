@@ -1,5 +1,5 @@
 package Date::Manip::Lang::turkish;
-# Copyright (c) 2001-2010 Sullivan Beck. All rights reserved.
+# Copyright (c) 2001-2009 Sullivan Beck. All rights reserved.
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -27,12 +27,12 @@ use strict;
 use warnings;
 
 use vars qw($VERSION);
-$VERSION="6.01";
+$VERSION='6.04';
 
 use vars qw($Language);
 
 my @in    = <DATA>;
-$Language = Load(join("",@in));
+$Language = Load(join('',@in));
 
 1;
 __DATA__
@@ -358,7 +358,7 @@ offset_date:
 offset_time: 
   simdi: 0:0:0:0:0:0:0
   "\xFEimdi": 0:0:0:0:0:0:0
-"on": 
+'on': 
   - 'on'
 times: 
   gece yarisi: 00:00:00

@@ -1,5 +1,5 @@
 package Date::Manip::Lang::italian;
-# Copyright (c) 1999-2010 Sullivan Beck. All rights reserved.
+# Copyright (c) 1999-2009 Sullivan Beck. All rights reserved.
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -27,12 +27,12 @@ use strict;
 use warnings;
 
 use vars qw($VERSION);
-$VERSION="6.01";
+$VERSION='6.04';
 
 use vars qw($Language);
 
 my @in    = <DATA>;
-$Language = Load(join("",@in));
+$Language = Load(join('',@in));
 
 1;
 __DATA__
@@ -335,7 +335,7 @@ offset_date:
   oggi: 0:0:0:0:0:0:0
 offset_time: 
   adesso: 0:0:0:0:0:0:0
-"on": 
+'on': 
   - di
 times: 
   mezzanotte: 00:00:00
